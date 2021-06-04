@@ -1,0 +1,49 @@
+1) transform the audio into an "image_audio" // trasformare l'audio in immagine
+2) hide the image_audio, into an original_image
+3) so the final resault is an result_image = original_image + image_audio as steganography 
+
+4) estrazione dell'audio (come .wav) dato result_image --> risultato all'interno del file audio_extracted_by_final_img
+
+5) test sulla robustezza (es. Applicando un filtro sulla result_image come cambia l'audio?) --> img originale mi viene 328kb, quella
+steganografata 1.2MB
+
+
+
+
+Cercare di recuperare l'audio nonostante modifiche all'immagine (l'audio dovrebbe 
+Piu o meno essere recuperato) (lossy, ritaglio, filtro)
+
+
+
+Andare a salvare l'immagine esattamente nello stesso png
+
+
+
+
+
+
+
+
+
+
+
+
+WATERMARKING -- STEGANOGRAFIA
+L'immagine a livello percettivo deve subire un'alterazione
+blanda. Deve essere difficile captare che ci sia un audio all'interno
+e se sospetto che ci sia, non deve essere immediata (non è facile da ottenere).
+Riuscire a far si che se modifico l'immagine ricomprimendola, 
+non distruggo il segnale -> ancora ci deve essere qualcosa di significativo. 
+
+linguaggio di programmazione Python. 
+tool --> linux --> Relazione non troppo lunga in cui scrivo di cosa 
+si è trattato, gli obiettivi e ciò che è stato fatto. compresi gli algoritmi. 
+
+
+(non c'è piu)
+Come funziona la GUI:
+1) Pagina di benvenuto che spiega il motivo del progetto
+2) INPUT in cui inserire l'immagine 
+3) INPUT in cui inserire la nota audio
+4) OUTPUT dell'immagine risultante = img_originale + audio nel desktop e 
+	mostrata in output. 
